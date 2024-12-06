@@ -130,27 +130,27 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 768px;
+        max-width:768px;
         margin: 0 auto;
         padding: 0 20px;
     }
 }
 
-@media screen and ( max-width: 480px) {
+@media screen and (max-width: 480px) {
     .container {
-        max-width: 480px;
+        max-width:480px;
         margin: 0 auto;
         padding: 0 20px;
     }
 
     .row {
+        width: 80%;
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
-    
+
     h2 {
-        margin-bottom: 2.5rem;
-        font-size: 2rem;
-        color: #fffffe;
+        width: 80%;
     }
-}
+}  
